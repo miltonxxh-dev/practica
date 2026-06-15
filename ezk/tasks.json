@@ -1,0 +1,282 @@
+[
+  {
+    "id": 71,
+    "category": "HTML",
+    "title": "Қарапайым HTML бет — title, heading, paragraph",
+    "keywords": ["html", "title", "heading", "paragraph", "қарапайым", "бет", "DOCTYPE"],
+    "task": "HTML тілінде қарапайым веб-бет құрыңыз. Бетте title, тақырып (heading) және абзац (paragraph) болсын.",
+    "solution": "<!DOCTYPE html>\n<html lang=\"kk\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Менің алғашқы бетім</title>\n</head>\n<body>\n    <h1>Сәлем, Әлем!</h1>\n    <p>Бұл менің алғашқы HTML бетім.</p>\n</body>\n</html>"
+  },
+  {
+    "id": 72,
+    "category": "HTML",
+    "title": "Мәтінді форматтау: <b>, <i>, <u>",
+    "keywords": ["html", "b", "i", "u", "қалың", "курсив", "астын", "сызылған", "форматтау"],
+    "task": "HTML бетінде мәтінді форматтау үшін <b>, <i>, <u> тегтерін қолданып мысал көрсетіңіз.",
+    "solution": "<p><b>Қалың мәтін</b></p>\n<p><i>Курсив мәтін</i></p>\n<p><u>Астын сызылған мәтін</u></p>\n<p><b><i>Қалың курсив</i></b></p>"
+  },
+  {
+    "id": 73,
+    "category": "HTML",
+    "title": "Сурет енгізу, alt атрибуты",
+    "keywords": ["html", "img", "alt", "сурет", "атрибут", "width", "height", "picsum"],
+    "task": "HTML құжатқа сурет енгізіп, оған alt атрибуты арқылы сипаттама жазыңыз.",
+    "solution": "<img src=\"photo.jpg\" alt=\"Табиғат суреті\" width=\"400\" height=\"300\">\n<img src=\"https://picsum.photos/300/200\" alt=\"Кездейсоқ сурет\">"
+  },
+  {
+    "id": 74,
+    "category": "HTML",
+    "title": "Сыртқы сайтқа сілтеме",
+    "keywords": ["html", "a", "href", "сілтеме", "link", "google", "wikipedia", "target", "blank"],
+    "task": "HTML бетінде басқа сайтқа өтетін сілтеме (<a>) құрыңыз.",
+    "solution": "<a href=\"https://www.google.com\" target=\"_blank\">Google-ге өту</a>\n<a href=\"https://www.wikipedia.org\">Wikipedia</a>"
+  },
+  {
+    "id": 75,
+    "category": "HTML",
+    "title": "Ішкі навигация (anchor links)",
+    "keywords": ["html", "anchor", "navigation", "nav", "section", "id", "href", "ішкі", "навигация"],
+    "task": "HTML бетінде бөлімдер арасында ауысуға арналған ішкі навигация (anchor link) құрыңыз.",
+    "solution": "<nav>\n    <a href=\"#section1\">1-бөлім</a>\n    <a href=\"#section2\">2-бөлім</a>\n</nav>\n\n<section id=\"section1\">\n    <h2>1-бөлім</h2>\n    <p>Мазмұн...</p>\n</section>\n\n<section id=\"section2\">\n    <h2>2-бөлім</h2>\n    <p>Мазмұн...</p>\n</section>"
+  },
+  {
+    "id": 76,
+    "category": "HTML",
+    "title": "3x3 HTML кестесі",
+    "keywords": ["html", "table", "thead", "tbody", "tr", "td", "th", "border", "кесте"],
+    "task": "3 жол және 3 бағаннан тұратын HTML кестесін жасаңыз.",
+    "solution": "<table border=\"1\">\n    <thead>\n        <tr>\n            <th>Аты</th>\n            <th>Жасы</th>\n            <th>Қаласы</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>Алма</td>\n            <td>20</td>\n            <td>Алматы</td>\n        </tr>\n        <tr>\n            <td>Бекзат</td>\n            <td>22</td>\n            <td>Астана</td>\n        </tr>\n        <tr>\n            <td>Дана</td>\n            <td>21</td>\n            <td>Шымкент</td>\n        </tr>\n    </tbody>\n</table>"
+  },
+  {
+    "id": 77,
+    "category": "HTML",
+    "title": "Маркерленген тізім (ul, 5 элемент)",
+    "keywords": ["html", "ul", "li", "маркерленген", "тізім", "list", "unordered"],
+    "task": "HTML бетінде 5 элементтен тұратын маркерленген тізім (ul) құрыңыз.",
+    "solution": "<ul>\n    <li>Python</li>\n    <li>JavaScript</li>\n    <li>HTML</li>\n    <li>CSS</li>\n    <li>Django</li>\n</ul>"
+  },
+  {
+    "id": 78,
+    "category": "HTML",
+    "title": "Нөмірленген тізім (ol)",
+    "keywords": ["html", "ol", "li", "нөмірленген", "тізім", "list", "ordered", "қадам"],
+    "task": "HTML құжатта нөмірленген тізім (ol) құрыңыз.",
+    "solution": "<ol>\n    <li>Бірінші қадам</li>\n    <li>Екінші қадам</li>\n    <li>Үшінші қадам</li>\n    <li>Төртінші қадам</li>\n    <li>Бесінші қадам</li>\n</ol>"
+  },
+  {
+    "id": 79,
+    "category": "HTML",
+    "title": "Форма: name, email, submit",
+    "keywords": ["html", "form", "input", "name", "email", "submit", "button", "label", "POST"],
+    "task": "HTML бетінде name, email енгізу өрістері және submit батырмасы бар форма құрыңыз.",
+    "solution": "<form action=\"/submit\" method=\"POST\">\n    <label>Аты: <input type=\"text\" name=\"name\" required></label><br>\n    <label>Email: <input type=\"email\" name=\"email\" required></label><br>\n    <button type=\"submit\">Жіберу</button>\n</form>"
+  },
+  {
+    "id": 80,
+    "category": "HTML",
+    "title": "Форма: radio және checkbox",
+    "keywords": ["html", "form", "radio", "checkbox", "input", "жыныс", "тіл", "gender", "lang"],
+    "task": "HTML формасына радио батырмалар (radio) және белгілеу жалаушаларын (checkbox) енгізіңіз.",
+    "solution": "<form>\n    <p>Жынысы:</p>\n    <label><input type=\"radio\" name=\"gender\" value=\"male\"> Ер</label>\n    <label><input type=\"radio\" name=\"gender\" value=\"female\"> Әйел</label>\n\n    <p>Тілдер:</p>\n    <label><input type=\"checkbox\" name=\"lang\" value=\"py\"> Python</label>\n    <label><input type=\"checkbox\" name=\"lang\" value=\"js\"> JavaScript</label>\n</form>"
+  },
+  {
+    "id": 81,
+    "category": "HTML",
+    "title": "Audio және Video тегтері",
+    "keywords": ["html", "audio", "video", "source", "controls", "мультимедиа", "media"],
+    "task": "HTML бетке аудио және видео файлдарды audio және video тегтері арқылы орналастырыңыз.",
+    "solution": "<audio controls>\n    <source src=\"music.mp3\" type=\"audio/mpeg\">\n    Браузер аудионы қолдамайды.\n</audio>\n\n<<video controls width=\"640\" height=\"360\">\n    <source src=\"video.mp4\" type=\"video/mp4\">\n    Браузер видеоны қолдамайды.\n</video>"
+  },
+  {
+    "id": 82,
+    "category": "HTML",
+    "title": "YouTube видеосын iframe арқылы",
+    "keywords": ["html", "iframe", "youtube", "video", "embed", "allowfullscreen", "frameborder"],
+    "task": "HTML бетке YouTube видеосын iframe арқылы енгізіңіз.",
+    "solution": "<iframe\n    width=\"560\" height=\"315\"\n    src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\"\n    title=\"YouTube video\"\n    frameborder=\"0\"\n    allowfullscreen>\n</iframe>"
+  },
+  {
+    "id": 83,
+    "category": "Django",
+    "title": "Django жобасы, / бетіне 'Hello Django + атыңыз'",
+    "keywords": ["django", "startproject", "startapp", "view", "HttpResponse", "urls", "home", "hello"],
+    "task": "Django жобасын құрып, басты бетке (/) «Hello Django + өз атың» мәтінін шығаратын view және URL байланысын жасаңыз.",
+    "solution": "# Жоба және app жасау\ndjango-admin startproject myproject\ncd myproject\npython manage.py startapp main\n\n# main/views.py\nfrom django.http import HttpResponse\n\ndef home(request):\n    return HttpResponse('Hello Django + Алма!')\n\n# myproject/urls.py\nfrom django.urls import path\nfrom main import views\n\nurlpatterns = [\n    path('', views.home, name='home'),\n]"
+  },
+  {
+    "id": 84,
+    "category": "Django",
+    "title": "settings.py: DEBUG және ALLOWED_HOSTS",
+    "keywords": ["django", "settings", "DEBUG", "ALLOWED_HOSTS", "production", "runserver", "конфигурация"],
+    "task": "Django жобасындағы settings.py файлында DEBUG және ALLOWED_HOSTS параметрлерін өзгертіп, серверді қайта іске қосыңыз.",
+    "solution": "# myproject/settings.py\nDEBUG = False  # Өндіріс ортасы үшін False\nALLOWED_HOSTS = ['localhost', '127.0.0.1', 'mydomain.com']\n\n# Серверді қайта іске қосу:\npython manage.py runserver"
+  },
+  {
+    "id": 85,
+    "category": "Django",
+    "title": "Жаңа app, /about/ беті",
+    "keywords": ["django", "startapp", "about", "view", "HttpResponse", "urls", "about_app"],
+    "task": "Django жобасында жаңа app құрып, /about/ бетіне өзіңіз туралы ақпарат шығаратын view жасаңыз.",
+    "solution": "python manage.py startapp about_app\n\n# about_app/views.py\nfrom django.http import HttpResponse\n\ndef about(request):\n    return HttpResponse('<h1>Мен туралы</h1><p>Аты: Алма. Мамандық: Python-разработчик</p>')\n\n# myproject/urls.py\npath('about/', about_app.views.about, name='about'),"
+  },
+  {
+    "id": 86,
+    "category": "Django",
+    "title": "URL параметр қабылдайтын view (/user/<name>/)",
+    "keywords": ["django", "url", "parameter", "str", "view", "user", "name", "f-string"],
+    "task": "Django жобасында URL арқылы параметр қабылдайтын (/user/<name>/) view жазып, экранға берілген атты шығарыңыз.",
+    "solution": "# views.py\ndef user_page(request, name):\n    return HttpResponse(f'<h1>Сәлем, {name}!</h1>')\n\n# urls.py\npath('user/<str:name>/', views.user_page, name='user-page'),"
+  },
+  {
+    "id": 87,
+    "category": "Django",
+    "title": "/about/ HttpResponse арқылы мәтін",
+    "keywords": ["django", "about", "HttpResponse", "view", "мәтін", "text"],
+    "task": "Django жобасында /about/ бетіне арналған view құрып, HttpResponse арқылы мәтін қайтарыңыз.",
+    "solution": "# views.py\nfrom django.http import HttpResponse\n\ndef about(request):\n    return HttpResponse('Бұл біз туралы бет.')"
+  },
+  {
+    "id": 88,
+    "category": "Django",
+    "title": "/student/<name>/ маршруты",
+    "keywords": ["django", "student", "url", "name", "view", "маршрут", "route"],
+    "task": "Django жобасында /student/<name>/ маршрутын құрып, бетте берілген студенттің атын көрсетіңіз.",
+    "solution": "# views.py\ndef student(request, name):\n    return HttpResponse(f'Студент: {name}')\n\n# urls.py\npath('student/<str:name>/', views.student, name='student'),"
+  },
+  {
+    "id": 89,
+    "category": "Django",
+    "title": "HTML шаблон, view-дан деректер жіберу",
+    "keywords": ["django", "template", "render", "context", "title", "teacher", "students", "for", "loop"],
+    "task": "Django жобасында HTML шаблон құрып, view арқылы: бет тақырыбын, оқытушының атын, студенттер тізімін шаблонға жіберіңіз.",
+    "solution": "# views.py\ndef home(request):\n    context = {\n        'title': 'Бас бет',\n        'teacher': 'Айгүл Ахметова',\n        'students': ['Алма', 'Бекзат', 'Дана', 'Ерлан'],\n    }\n    return render(request, 'home.html', context)\n\n<!-- templates/home.html -->\n<!DOCTYPE html><html><body>\n    <h1>{{ title }}</h1>\n    <p>Оқытушы: {{ teacher }}</p>\n    <ul>{% for s in students %}<<li>{{ s }}</li>{% endfor %}</ul>\n</body></html>"
+  },
+  {
+    "id": 90,
+    "category": "Django",
+    "title": "CSS файлын қосу, шаблон безендіру",
+    "keywords": ["django", "css", "static", "load", "stylesheet", "style", "table", "background", "font"],
+    "task": "Django жобасында CSS файлын қосып, шаблон бетін фон түсі, тақырып және кесте арқылы безендіріңіз.",
+    "solution": "<!-- templates/home.html -->\n{% load static %}\n<!DOCTYPE html><html>\n<head><link rel=\"stylesheet\" href=\"{% static 'css/style.css' %}\"></head>\n<body>\n    <h1>Студенттер тізімі</h1>\n    <table>...кесте...</table>\n</body></html>\n\n/* static/css/style.css */\nbody { background-color: #f0f8ff; font-family: Arial; }\nh1 { color: #1F4E79; }\ntable { border-collapse: collapse; width: 100%; }\ntd, th { border: 1px solid #ccc; padding: 8px; }"
+  },
+  {
+    "id": 91,
+    "category": "Django",
+    "title": "Аты-жөні мен email форма, мәліметті экранға шығару",
+    "keywords": ["django", "form", "CharField", "EmailField", "ContactForm", "as_p", "POST", "cleaned_data"],
+    "task": "Django жобасында аты-жөні мен email енгізетін форма жасап, енгізілген мәліметті экранға шығарыңыз.",
+    "solution": "# forms.py\nfrom django import forms\n\nclass ContactForm(forms.Form):\n    name = forms.CharField(max_length=100, label='Аты-жөні')\n    email = forms.EmailField(label='Email')\n\n# views.py\ndef contact(request):\n    result = None\n    if request.method == 'POST':\n        form = ContactForm(request.POST)\n        if form.is_valid():\n            result = form.cleaned_data\n    else:\n        form = ContactForm()\n    return render(request, 'contact.html', {'form': form, 'result': result})\n\n<!-- contact.html -->\n<form method=\"POST\">{% csrf_token %}\n    {{ form.as_p }}\n    <button type=\"submit\">Жіберу</button>\n</form>\n{% if result %}<<p>{{ result.name }} --- {{ result.email }}</p>{% endif %}"
+  },
+  {
+    "id": 92,
+    "category": "Django",
+    "title": "Email қате болса қате хабарламасы",
+    "keywords": ["django", "form", "errors", "email", "validation", "field.errors", "join", "red"],
+    "task": "Django формасында email қате енгізілсе, қолданушыға қате хабарламасын көрсетіңіз.",
+    "solution": "# views.py (91-тапсырмамен бірдей)\n# Django EmailField автоматты тексереді\n# Шаблонда қателерді көрсету:\n\n<!-- contact.html -->\n{% for field in form %}\n    {{ field.label_tag }} {{ field }}\n    {% if field.errors %}\n        <span style=\"color:red;\">{{ field.errors|join:', ' }}</span>\n    {% endif %}\n{% endfor %}"
+  },
+  {
+    "id": 93,
+    "category": "Django",
+    "title": "Post моделі, миграция",
+    "keywords": ["django", "model", "Post", "CharField", "TextField", "DateTimeField", "auto_now_add", "makemigrations", "migrate"],
+    "task": "Django жобасында Post моделін (title, content, created_at) жасап, миграция орындаңыз.",
+    "solution": "# models.py\nfrom django.db import models\n\nclass Post(models.Model):\n    title = models.CharField(max_length=200)\n    content = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n\n    def __str__(self):\n        return self.title\n\n# Миграция\npython manage.py makemigrations\npython manage.py migrate"
+  },
+  {
+    "id": 94,
+    "category": "Django",
+    "title": "Базаға мәлімет қосу, HTML шаблонда тізім",
+    "keywords": ["django", "shell", "create", "Post", "objects", "all", "order_by", "template", "for", "list"],
+    "task": "Django жобасында базаға мәлімет қосып, оны HTML шаблонда тізім ретінде шығарыңыз.",
+    "solution": "# python manage.py shell арқылы немесе admin арқылы\nfrom blog.models import Post\nPost.objects.create(title='1-пост', content='Мазмұн 1')\nPost.objects.create(title='2-пост', content='Мазмұн 2')\n\n# views.py\ndef post_list(request):\n    posts = Post.objects.all().order_by('-created_at')\n    return render(request, 'post_list.html', {'posts': posts})\n\n<!-- post_list.html -->\n<ul>\n    {% for post in posts %}\n        <li><h3>{{ post.title }}</h3><p>{{ post.content }}</p></li>\n    {% endfor %}\n</ul>"
+  },
+  {
+    "id": 95,
+    "category": "SQL",
+    "title": "CollegeDB — Learners кестесі, 5 жазба, барлығын шығару",
+    "keywords": ["sql", "CREATE", "DATABASE", "TABLE", "INSERT", "SELECT", "Learners", "CollegeDB", "SERIAL", "PRIMARY KEY"],
+    "task": "CollegeDB деректер қорын құрыңыз. Learners кестесін жасап, 5 жазба енгізіңіз және барлық мәліметті шығарыңыз.",
+    "solution": "CREATE DATABASE CollegeDB;\n\\c CollegeDB\n\nCREATE TABLE Learners (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    age INTEGER,\n    city VARCHAR(100)\n);\n\nINSERT INTO Learners (name, age, city) VALUES\n('Алма Бекова', 20, 'Алматы'),\n('Бекзат Сейткали', 22, 'Астана'),\n('Дана Ахметова', 19, 'Шымкент'),\n('Ерлан Тоқаев', 21, 'Алматы'),\n('Гүлнар Есімова', 23, 'Астана');\n\nSELECT * FROM Learners;"
+  },
+  {
+    "id": 96,
+    "category": "SQL",
+    "title": "TrainingDB — Participants, жасы 18-ден жоғары",
+    "keywords": ["sql", "CREATE", "DATABASE", "WHERE", "age", "Participants", "TrainingDB", "SELECT", "INSERT"],
+    "task": "TrainingDB деректер қорын құрыңыз. Participants кестесін жасап, 5 жазба енгізіңіз. Жасы 18-ден жоғары қатысушыларды шығарыңыз.",
+    "solution": "CREATE DATABASE TrainingDB;\n\\c TrainingDB\n\nCREATE TABLE Participants (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    age INTEGER,\n    email VARCHAR(200)\n);\n\nINSERT INTO Participants (name, age, email) VALUES\n('Асыл', 17, 'asyl@mail.com'),\n('Болат', 25, 'bolat@mail.com'),\n('Виктория', 19, 'vika@mail.com'),\n('Ғалым', 16, 'galym@mail.com'),\n('Дильназ', 22, 'dilnaz@mail.com');\n\nSELECT * FROM Participants WHERE age > 18;"
+  },
+  {
+    "id": 97,
+    "category": "SQL",
+    "title": "LibraryDB — Books, бағасы 3000 тг жоғары",
+    "keywords": ["sql", "CREATE", "DATABASE", "Books", "LibraryDB", "price", "NUMERIC", "WHERE", "INSERT", "SELECT"],
+    "task": "LibraryDB деректер қорын құрыңыз. Books кестесін жасап, 5 кітап енгізіңіз. Бағасы 3000 тг жоғары кітаптарды шығарыңыз.",
+    "solution": "CREATE DATABASE LibraryDB;\n\\c LibraryDB\n\nCREATE TABLE Books (\n    id SERIAL PRIMARY KEY,\n    title VARCHAR(200),\n    author VARCHAR(100),\n    price NUMERIC(10,2)\n);\n\nINSERT INTO Books (title, author, price) VALUES\n('Python негіздері', 'Марк Лутц', 2500.00),\n('Django арқылы', 'Адриан Головатый', 3500.00),\n('SQL тереңірек', 'Алан Болье', 4200.00),\n('HTML және CSS', 'Джон Дакет', 2900.00),\n('Алгоритмдер', 'Томас Кормен', 5100.00);\n\nSELECT * FROM Books WHERE price > 3000;"
+  },
+  {
+    "id": 98,
+    "category": "SQL",
+    "title": "ClinicDB — Patients, тегі белгілі әріптен басталатын",
+    "keywords": ["sql", "CREATE", "DATABASE", "Patients", "ClinicDB", "LIKE", "А%", "last_name", "first_name"],
+    "task": "ClinicDB деректер қорын құрыңыз. Patients кестесін жасап, 5 жазба енгізіңіз. Тегі белгілі бір әріптен басталатын науқастарды шығарыңыз.",
+    "solution": "CREATE DATABASE ClinicDB;\n\\c ClinicDB\n\nCREATE TABLE Patients (\n    id SERIAL PRIMARY KEY,\n    last_name VARCHAR(100),\n    first_name VARCHAR(100),\n    age INTEGER\n);\n\nINSERT INTO Patients (last_name, first_name, age) VALUES\n('Ахметов', 'Асыл', 35),\n('Бекова', 'Айгүл', 28),\n('Ахмадов', 'Нұрлан', 42),\n('Сейткали', 'Зарина', 31),\n('Абдулла', 'Мирас', 55);\n\n-- Тегі 'А' әріпінен басталатын науқастар\nSELECT * FROM Patients WHERE last_name LIKE 'А%';"
+  },
+  {
+    "id": 99,
+    "category": "SQL",
+    "title": "AutoServiceDB — Cars, телефон нөмірін жаңарту",
+    "keywords": ["sql", "CREATE", "DATABASE", "Cars", "AutoServiceDB", "UPDATE", "SET", "phone", "brand", "model"],
+    "task": "AutoServiceDB деректер қорын құрыңыз. Cars кестесін жасап, 5 жазба енгізіңіз. Бір автокөліктің телефон нөмірін жаңартыңыз.",
+    "solution": "CREATE DATABASE AutoServiceDB;\n\\c AutoServiceDB\n\nCREATE TABLE Cars (\n    id SERIAL PRIMARY KEY,\n    brand VARCHAR(100),\n    model VARCHAR(100),\n    owner VARCHAR(100),\n    phone VARCHAR(20)\n);\n\nINSERT INTO Cars (brand, model, owner, phone) VALUES\n('Toyota', 'Camry', 'Асқар', '+77011111111'),\n('BMW', 'X5', 'Дина', '+77022222222'),\n('Hyundai', 'Tucson', 'Ержан', '+77033333333'),\n('Kia', 'Sportage', 'Мадина', '+77044444444'),\n('Mercedes', 'E200', 'Тимур', '+77055555555');\n\nUPDATE Cars SET phone = '+77099999999' WHERE id = 1;\nSELECT * FROM Cars WHERE id = 1;"
+  },
+  {
+    "id": 100,
+    "category": "SQL",
+    "title": "JobCenterDB — Applicants, туған жылы бойынша сұрыптау",
+    "keywords": ["sql", "CREATE", "DATABASE", "Applicants", "JobCenterDB", "ORDER BY", "birth_year", "ASC", "profession"],
+    "task": "JobCenterDB деректер қорын құрыңыз. Applicants кестесін жасап, 5 жазба енгізіңіз. Үміткерлерді туған жылы бойынша сұрыптаңыз.",
+    "solution": "CREATE DATABASE JobCenterDB;\n\\c JobCenterDB\n\nCREATE TABLE Applicants (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    birth_year INTEGER,\n    profession VARCHAR(100)\n);\n\nINSERT INTO Applicants (name, birth_year, profession) VALUES\n('Алия', 1995, 'Бухгалтер'),\n('Болат', 2001, 'Бағдарламашы'),\n('Данияр', 1988, 'Инженер'),\n('Гүлмира', 1999, 'Дизайнер'),\n('Ерлан', 1992, 'Заңгер');\n\nSELECT * FROM Applicants ORDER BY birth_year ASC;"
+  },
+  {
+    "id": 101,
+    "category": "SQL",
+    "title": "HotelDB — Guests, жалпы саны және қала бойынша",
+    "keywords": ["sql", "CREATE", "DATABASE", "Guests", "HotelDB", "COUNT", "GROUP BY", "city", "ORDER BY", "DESC"],
+    "task": "HotelDB деректер қорын құрыңыз. Guests кестесін жасап, 5 жазба енгізіңіз. Қонақтардың жалпы санын және қала бойынша санын анықтаңыз.",
+    "solution": "CREATE DATABASE HotelDB;\n\\c HotelDB\n\nCREATE TABLE Guests (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    city VARCHAR(100),\n    room INTEGER\n);\n\nINSERT INTO Guests (name, city, room) VALUES\n('Асыл', 'Алматы', 101),\n('Бекзат', 'Астана', 102),\n('Дана', 'Алматы', 103),\n('Ерлан', 'Шымкент', 104),\n('Гүлнар', 'Астана', 105);\n\n-- Жалпы саны\nSELECT COUNT(*) AS total_guests FROM Guests;\n\n-- Қала бойынша\nSELECT city, COUNT(*) AS count FROM Guests GROUP BY city ORDER BY count DESC;"
+  },
+  {
+    "id": 102,
+    "category": "SQL",
+    "title": "FitnessDB — Members, орташа жас пен орташа төлем",
+    "keywords": ["sql", "CREATE", "DATABASE", "Members", "FitnessDB", "AVG", "ROUND", "age", "payment", "aggregate"],
+    "task": "FitnessDB деректер қорын құрыңыз. Members кестесін жасап, 5 жазба енгізіңіз. Орташа жас пен орташа төлемді есептеңіз.",
+    "solution": "CREATE DATABASE FitnessDB;\n\\c FitnessDB\n\nCREATE TABLE Members (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    age INTEGER,\n    payment NUMERIC(10,2)\n);\n\nINSERT INTO Members (name, age, payment) VALUES\n('Алма', 25, 5000.00),\n('Бекзат', 30, 7000.00),\n('Дана', 22, 4500.00),\n('Ерлан', 35, 8000.00),\n('Гүлнар', 28, 6000.00);\n\nSELECT\n    ROUND(AVG(age), 1) AS avg_age,\n    ROUND(AVG(payment), 2) AS avg_payment\nFROM Members;"
+  },
+  {
+    "id": 103,
+    "category": "SQL",
+    "title": "EventDB — UNION: RegisteredUsers + InvitedUsers",
+    "keywords": ["sql", "CREATE", "DATABASE", "UNION", "UNION ALL", "RegisteredUsers", "InvitedUsers", "EventDB", "combine"],
+    "task": "EventDB деректер қорын құрыңыз. RegisteredUsers және InvitedUsers кестелерін жасап, деректерді UNION арқылы біріктіріңіз.",
+    "solution": "CREATE DATABASE EventDB;\n\\c EventDB\n\nCREATE TABLE RegisteredUsers (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    email VARCHAR(200)\n);\n\nCREATE TABLE InvitedUsers (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    email VARCHAR(200)\n);\n\nINSERT INTO RegisteredUsers (name, email) VALUES\n('Алма', 'alma@mail.com'), ('Болат', 'bolat@mail.com'), ('Дана', 'dana@mail.com');\n\nINSERT INTO InvitedUsers (name, email) VALUES\n('Дана', 'dana@mail.com'), ('Ерлан', 'erlan@mail.com'), ('Гүлнар', 'gulnar@mail.com');\n\n-- UNION: қайталанбайтын біріктіру\nSELECT name, email FROM RegisteredUsers\nUNION\nSELECT name, email FROM InvitedUsers;\n\n-- UNION ALL: қайталанатындарды қоса\nSELECT name, email FROM RegisteredUsers\nUNION ALL\nSELECT name, email FROM InvitedUsers;"
+  },
+  {
+    "id": 104,
+    "category": "SQL",
+    "title": "ShopArchiveDB — ActiveProducts → ExpensiveProducts",
+    "keywords": ["sql", "CREATE", "DATABASE", "INSERT INTO", "SELECT", "ActiveProducts", "ExpensiveProducts", "ShopArchiveDB", "archive"],
+    "task": "ShopArchiveDB деректер қорын құрыңыз. ActiveProducts және ExpensiveProducts кестелерін жасап, қымбат тауарларды екінші кестеге көшіріңіз.",
+    "solution": "CREATE DATABASE ShopArchiveDB;\n\\c ShopArchiveDB\n\nCREATE TABLE ActiveProducts (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    price NUMERIC(10,2)\n);\n\nCREATE TABLE ExpensiveProducts (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    price NUMERIC(10,2)\n);\n\nINSERT INTO ActiveProducts (name, price) VALUES\n('Телефон', 150000), ('Ноутбук', 450000), ('Тышқан', 5000),\n('Монитор', 120000), ('Пернетақта', 15000);\n\n-- Бағасы 100000-нан жоғарыларды екінші кестеге көшіру\nINSERT INTO ExpensiveProducts (name, price)\nSELECT name, price FROM ActiveProducts WHERE price > 100000;\n\nSELECT * FROM ExpensiveProducts;"
+  },
+  {
+    "id": 105,
+    "category": "SQL",
+    "title": "OnlineMarketDB — Customers, Products, Orders — күрделі сұраныс",
+    "keywords": ["sql", "CREATE", "DATABASE", "JOIN", "GROUP BY", "ORDER BY", "STRING_AGG", "SUM", "Customers", "Products", "Orders", "OnlineMarketDB", "REFERENCES", "FOREIGN KEY"],
+    "task": "OnlineMarketDB деректер қорын құрыңыз. Customers, Products, Orders кестелерін жасап, байланыс орнатыңыз. Кестелерге кемінде 5 жазба енгізіп, әр клиенттің тапсырыс берген тауарларын және жалпы тапсырыс сомасын есептейтін күрделі сұраныс жазыңыз. Сұраныста кестелерді байланыстыру, топтау және сұрыптау қолданылсын.",
+    "solution": "CREATE DATABASE OnlineMarketDB;\n\\c OnlineMarketDB\n\nCREATE TABLE Customers (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    city VARCHAR(100)\n);\n\nCREATE TABLE Products (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    price NUMERIC(10,2)\n);\n\nCREATE TABLE Orders (\n    id SERIAL PRIMARY KEY,\n    customer_id INTEGER REFERENCES Customers(id),\n    product_id INTEGER REFERENCES Products(id),\n    quantity INTEGER DEFAULT 1,\n    order_date DATE DEFAULT CURRENT_DATE\n);\n\n-- Деректер\nINSERT INTO Customers (name, city) VALUES\n('Алма', 'Алматы'), ('Болат', 'Астана'), ('Дана', 'Шымкент'),\n('Ерлан', 'Алматы'), ('Гүлнар', 'Астана');\n\nINSERT INTO Products (name, price) VALUES\n('Ноутбук', 350000), ('Телефон', 150000), ('Планшет', 200000),\n('Наушники', 25000), ('Тышқан', 8000);\n\nINSERT INTO Orders (customer_id, product_id, quantity) VALUES\n(1, 1, 1), (1, 4, 2), (2, 2, 1), (3, 3, 1),\n(4, 5, 3), (5, 1, 1), (2, 4, 1);\n\n-- Күрделі сұраныс: әр клиенттің тауарлары мен жалпы сомасы\nSELECT\n    c.name AS клиент,\n    c.city AS қала,\n    STRING_AGG(p.name, ', ') AS тауарлар,\n    SUM(p.price * o.quantity) AS жалпы_сома\nFROM Customers c\nJOIN Orders o ON c.id = o.customer_id\nJOIN Products p ON p.id = o.product_id\nGROUP BY c.id, c.name, c.city\nORDER BY жалпы_сома DESC;"
+  }
+]
